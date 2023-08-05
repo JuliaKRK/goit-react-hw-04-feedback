@@ -1,0 +1,50 @@
+.buttonsFeedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.button {
+  cursor: pointer;
+  width: 100px;
+  border: 2px solid #1a0202;
+  border-radius: 10%;
+  padding: 8px 8px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  &:hover {
+    background-color: whitesmoke;
+    transform: scale(1.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 5px #888;
+  }
+}
+.good {
+  background-color: rgb(168, 236, 168);
+  color: #025802;
+  border-color: #025802;
+}
+
+.neutral {
+  background-color: rgba(197, 190, 190, 0.5);
+  color: rgb(54, 54, 54);
+  border-color: #8d8b8b;
+}
+
+.bad {
+  background-color: rgb(240, 73, 73);
+  color: rgb(119, 1, 1);
+  &:hover,
+  &:focus {
+    border-color: red;
+  }
+}

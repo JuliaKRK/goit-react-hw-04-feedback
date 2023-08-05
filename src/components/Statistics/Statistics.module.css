@@ -1,0 +1,31 @@
+.statisticsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statistics {
+  background-color: rgba(164, 232, 164, 0.5);
+  color: #333333;
+  padding: 30px;
+  width: 365px;
+  border: 2px solid black;
+  border-radius: 10%;
+  font-size: 25px;
+  font-weight: bold;
+  /* font-style: italic; */
+}
+
+.statItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.statValue {
+  color: brown;
+  margin-left: 10px;
+  font-style: normal;
+}
